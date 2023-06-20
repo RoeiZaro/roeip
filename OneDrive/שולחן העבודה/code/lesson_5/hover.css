@@ -17,7 +17,7 @@ p{
     display: none;
 }
 
-#box2:hover + #box3 + #box4 p{
+#box2:hover + #box3 p{
     display: block;
 }
 
