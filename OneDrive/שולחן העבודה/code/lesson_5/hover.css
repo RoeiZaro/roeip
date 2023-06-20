@@ -1,0 +1,43 @@
+.boxes{
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid black 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    display: none;
+}
+
+#box2:hover + #box3 + #box4 p{
+    display: block;
+}
+
+#box3:hover p{
+    display: block;
+}
+
+#box4:hover p{
+    display: block;
+}
+
+#box1:hover p{
+    display: block;
+}
+
+
+/*
+h1{
+    position: fixed;
+    top: 0px;
+    right:1px;
+}
+*/

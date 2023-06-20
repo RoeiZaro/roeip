@@ -1,0 +1,50 @@
+body{
+    /*direction: rtl;*/
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+#text {
+    color:aqua;
+    /*font-weight: 900;*/
+    font-size: 15vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#contiener{
+    display: flex;
+    
+}
+
+.cube{
+    background-color:rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    
+}
+
+#img_txt{
+    display: flex;
+}
+
+#theimg{
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    #text    {
+        color: red;
+    }
+    
+    #contiener{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img_txt{
+        display: flex;
+        flex-direction: column;
+    }
+}
